@@ -1,11 +1,14 @@
 {
-  "name": "@ffa/obs-websocket-js",
+  "name": "@ffa/obs-websocket",
   "version": "5.1.0",
   "description": "OBS Websocket API in Javascript, consumes @Palakis/obs-websocket",
   "author": "OBS Websocket Community",
   "license": "MIT",
-  "repository": "obs-websocket-community-projects/obs-websocket-js",
-  "repoUrl": "https://github.com/obs-websocket-community-projects/obs-websocket-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiohyperdrive/obs-websocket-js.git"
+  },
+  "repoUrl": "https://github.com/studiohyperdrive/obs-websocket-js",
   "keywords": [
     "obs",
     "studio",
@@ -97,9 +100,9 @@
     "typescript": "^5.5.3"
   },
   "bugs": {
-    "url": "https://github.com/obs-websocket-community-projects/obs-websocket-js/issues"
+    "url": "https://github.com/studiohyperdrive/obs-websocket-js/issues"
   },
-  "homepage": "https://github.com/obs-websocket-community-projects/obs-websocket-js#readme",
+  "homepage": "https://github.com/studiohyperdrive/obs-websocket-js#readme",
   "ava": {
     "extensions": {
       "ts": "commonjs"
@@ -118,5 +121,8 @@
     "include": [
       "src/**/*.ts"
     ]
+  },
+  "directories": {
+    "test": "tests"
   }
 }
