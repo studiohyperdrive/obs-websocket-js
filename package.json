@@ -1,5 +1,5 @@
 {
-  "name": "@ffa/obs-websocket",
+  "name": "@studiohyperdrive/obs-websocket",
   "version": "5.1.0",
   "description": "OBS Websocket API in Javascript, consumes @Palakis/obs-websocket",
   "author": "OBS Websocket Community",
