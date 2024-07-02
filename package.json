@@ -1,5 +1,5 @@
 {
-  "name": "obs-websocket-js",
+  "name": "@ffa/obs-websocket-js",
   "version": "5.0.5",
   "description": "OBS Websocket API in Javascript, consumes @Palakis/obs-websocket",
   "author": "OBS Websocket Community",
@@ -66,7 +66,7 @@
     "debug": "^4.3.2",
     "eventemitter3": "^5.0.1",
     "isomorphic-ws": "^5.0.0",
-    "type-fest": "^3.11.0",
+    "type-fest": "^4.20.1",
     "ws": "^8.13.0"
   },
   "devDependencies": {
